@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "csv-parse": "^6.2.1",
+    "playwright": "^1.59.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "allure-playwright": "^3.7.2"
+  },
+  "scripts": {}
+}

@@ -1,0 +1,270 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: AccountRegistaration.spec.ts >> Account Registration Test
+- Location: tests\AccountRegistaration.spec.ts:22:5
+
+# Error details
+
+```
+Test timeout of 30000ms exceeded.
+```
+
+```
+Error: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('span:has-text("My Account")')
+
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - insertion [ref=e2]:
+    - generic [ref=e5]:
+      - heading "These are topics related to the article that might interest you" [level=2] [ref=e7]: Discover more
+      - link "Web Services" [ref=e8] [cursor=pointer]:
+        - generic "Web Services" [ref=e9]
+        - img [ref=e11]
+      - link "Scripting" [ref=e13] [cursor=pointer]:
+        - generic "Scripting" [ref=e14]
+        - img [ref=e16]
+      - link "Development Tools" [ref=e18] [cursor=pointer]:
+        - generic "Development Tools" [ref=e19]
+        - img [ref=e21]
+  - link "Skip to the content" [ref=e23] [cursor=pointer]:
+    - /url: "#site-content"
+  - generic [ref=e24]:
+    - list [ref=e29]:
+      - listitem [ref=e30]:
+        - link "Live Training" [ref=e31] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/live-training/
+      - listitem [ref=e32]:
+        - text: /
+        - link "Paid Videos/Courses" [ref=e33] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/paid-videos-courses/
+      - listitem [ref=e34]:
+        - text: /
+        - link "Generate Page Objects Using AI" [ref=e35] [cursor=pointer]:
+          - /url: https://claude.ai/public/artifacts/03b506e0-cea0-43ee-94e9-bb10dd9106b2?fullscreen=true&utm_source=naveenautomationlabs&utm_medium=website&utm_campaign=page_object_generator&utm_content=launch_button
+      - listitem [ref=e36]:
+        - text: /
+        - link "Test Automation Code Translator" [ref=e37] [cursor=pointer]:
+          - /url: https://claude.ai/public/artifacts/a5a94f5d-df6a-46b8-bf3d-55606cefb8d7?fullscreen=true&utm_source=naveenautomationlabs&utm_medium=website&utm_campaign=code_converter&utm_content=launch_button
+      - listitem [ref=e38]:
+        - text: /
+        - link "cURL to REST Assured Converter" [ref=e39] [cursor=pointer]:
+          - /url: https://claude.ai/public/artifacts/6b0a20b6-ef02-4e63-a0cd-064c01e3a716?fullscreen=true&utm_source=naveenautomationlabs&utm_medium=website&utm_campaign=curl_converter&utm_content=launch_button
+      - listitem [ref=e40]:
+        - text: /
+        - link "Automation Testing Quiz" [ref=e41] [cursor=pointer]:
+          - /url: https://claude.ai/public/artifacts/786b345d-7d09-409b-ac93-c3d248a14993?fullscreen=true&utm_source=naveenautomationlabs&utm_medium=website&utm_campaign=automation_quiz&utm_content=launch_button
+      - listitem [ref=e42]:
+        - text: /
+        - link "Schedule Meeting with Naveen" [ref=e43] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/schedule-meeting-with-naveen/
+      - listitem [ref=e44]:
+        - text: /
+        - link "Build Your Resume" [ref=e45] [cursor=pointer]:
+          - /url: https://www.shapemycv.com/
+      - listitem [ref=e46]:
+        - text: /
+        - link "Contact Us" [ref=e47] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/contact-us/
+    - main [ref=e48]:
+      - generic [ref=e52]:
+        - heading "Error 404" [level=2] [ref=e54]
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: It seems like you have tried to open a page that doesn't exist. It could have been deleted, moved, or it never existed at all. You are welcome to search for what you are looking for with the form below.
+          - search [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: "Search for:"
+              - searchbox "Search for:" [ref=e60]
+            - button "Search" [ref=e61] [cursor=pointer]
+      - complementary [ref=e62]:
+        - generic [ref=e64]:
+          - heading "NEW Playwright+Typescript+End To End Framework BATCH ANNOUNCEMENT – Regular Batch (29th April 2026 – 7 AM IST/ 9:30 PM EST (Registration open now)" [level=3] [ref=e65]
+          - paragraph [ref=e67]:
+            - generic [ref=e68]:
+              - link "New Playwright+Typescript Batch - ANNOUNCEMENT - Registeration Open - April 29th - 7 AM IST" [ref=e70] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/playwright-training/
+                - paragraph [ref=e71]: New Playwright+Typescript Batch - ANNOUNCEMENT - Registeration Open - April 29th - 7 AM IST
+              - paragraph:
+                - generic:
+                  - link:
+                    - /url: https://naveenautomationlabs.com/playwright-training/
+              - paragraph [ref=e72]:
+                - generic:
+                  - link:
+                    - /url: https://naveenautomationlabs.com/playwright-training/
+        - generic [ref=e74]:
+          - 'heading "New Course Launched: GIT Tutorials (End to End) – Basics To Advanced" [level=3] [ref=e75]'
+          - link "Git paid course" [ref=e76] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/gitcourse/
+            - img "Git paid course" [ref=e77]
+        - generic:
+          - generic:
+            - paragraph
+    - generic [ref=e81]:
+      - generic [ref=e83]:
+        - heading "Pages" [level=3] [ref=e84]
+        - list [ref=e85]:
+          - listitem [ref=e86]:
+            - link "Contact Us" [ref=e87] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/contact-us/
+          - listitem [ref=e88]:
+            - link "Live Training" [ref=e89] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/live-training/
+          - listitem [ref=e90]:
+            - link "Manual & Automation Testing of WebServices/API" [ref=e91] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/manual-automation-testing-of-webservices-api/
+          - listitem [ref=e92]:
+            - link "Paid Videos/Courses" [ref=e93] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/paid-videos-courses/
+          - listitem [ref=e94]:
+            - link "Privacy Policy" [ref=e95] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/privacy-policy/
+          - listitem [ref=e96]:
+            - link "Recorded Paid Courses" [ref=e97] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/recorded-paid-courses/
+          - listitem [ref=e98]:
+            - link "Refund and Cancellation Policy" [ref=e99] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/refund-and-cancellation-policy/
+          - listitem [ref=e100]:
+            - link "Selenium & Java Full Paid Course Recorded Videos" [ref=e101] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/selenium-java-full-paid-course-recorded-videos/
+          - listitem [ref=e102]:
+            - link "Terms & Conditions" [ref=e103] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/terms-conditions/
+          - listitem [ref=e104]:
+            - link "Welcome to Naveen AutomationLabs" [ref=e105] [cursor=pointer]:
+              - /url: https://naveenautomationlabs.com/
+      - generic:
+        - generic:
+          - paragraph
+    - generic [ref=e107]:
+      - paragraph [ref=e108]:
+        - text: © 2026
+        - link:
+          - /url: https://naveenautomationlabs.com
+      - paragraph [ref=e109]:
+        - generic [ref=e110]:
+          - text: Theme by
+          - link "Anders Norén" [ref=e111] [cursor=pointer]:
+            - /url: https://andersnoren.se
+        - text: — Up ↑
+  - insertion [ref=e112]:
+    - generic [ref=e115]:
+      - heading "These are topics related to the article that might interest you" [level=2] [ref=e117]: Discover more
+      - link "software testing" [ref=e118] [cursor=pointer]:
+        - generic "software testing" [ref=e119]
+        - img [ref=e121]
+      - link "Software" [ref=e123] [cursor=pointer]:
+        - generic "Software" [ref=e124]
+        - img [ref=e126]
+      - link "software" [ref=e128] [cursor=pointer]:
+        - generic "software" [ref=e129]
+        - img [ref=e131]
+```
+
+# Test source
+
+```ts
+  1  | import { Page, expect, Locator } from '@playwright/test';
+  2  | 
+  3  | export class HomePage{
+  4  | 
+  5  |     private readonly page: Page;
+  6  |     //locators
+  7  |     private readonly lnkMyAccount: Locator;
+  8  |     private readonly lnkRegister: Locator;
+  9  |     private readonly linkLogin: Locator;
+  10 |     private readonly txtSearchbox: Locator;
+  11 |     private readonly btnSearch: Locator;
+  12 | 
+  13 | 
+  14 |     //constructor
+  15 |     constructor(page:Page){
+  16 | 
+  17 |         this.page=page;
+  18 |         this.lnkMyAccount = page.locator('span:has-text("My Account")');
+  19 |         this.lnkRegister = page.locator('a:has-text("Register")');
+  20 |         this.linkLogin = page.locator('a:has-text("Login")');
+  21 |         this.txtSearchbox = page.locator('input[placeholder="Search"]');
+  22 |         this.btnSearch = page.locator('#search button[type="button"]');
+  23 | 
+  24 |     }
+  25 | 
+  26 |     //action methods
+  27 | 
+  28 |       // Check if HomePage exists
+  29 |     async isHomePageExists(){
+  30 | 
+  31 |         let title:string = await this.page.title();
+  32 |         if(title)
+  33 |         {
+  34 |             return true;
+  35 |         }
+  36 |         return false;
+  37 |     }
+  38 | 
+  39 |  // Click "My Account" link
+  40 |     async clickMyAccount(){
+  41 |         try {
+> 42 |             await this.lnkMyAccount.click();
+     |                                     ^ Error: locator.click: Test timeout of 30000ms exceeded.
+  43 |         } catch (error) {
+  44 |             console.log(`Exception occurred while clicking 'My Account': ${error}`);
+  45 |             throw error;
+  46 |         }
+  47 |     }
+  48 | 
+  49 |  // Click "Register" link
+  50 |     async clickRegister(){
+  51 |         try {
+  52 |             await this.lnkRegister.click();
+  53 |         } catch (error) {
+  54 |             console.log(`Exception occurred while clicking 'Register': ${error}`);
+  55 |             throw error;
+  56 |         }
+  57 |     }
+  58 | 
+  59 |     // Click "Login" link
+  60 |     async clickLogin(){
+  61 |         try {
+  62 |             await this.linkLogin.click();
+  63 |         } catch (error) {
+  64 |             console.log(`Exception occurred while clicking 'Login': ${error}`);
+  65 |             throw error;
+  66 |         }
+  67 |     }
+  68 | 
+  69 |     // Enter product name in the search box
+  70 |     async enterProductName(pName: string){
+  71 |         try {
+  72 |             await this.txtSearchbox.fill(pName);
+  73 |         } catch (error) {
+  74 |             console.log(`Exception occurred while entering product name: ${error}`);
+  75 |             throw error;
+  76 |         }
+  77 |     }
+  78 | 
+  79 |     // Click the search button
+  80 |     async clickSearch(){
+  81 |         try {
+  82 |             await this.btnSearch.click();
+  83 |         } catch (error) {
+  84 |             console.log(`Exception occurred while clicking 'Search': ${error}`);
+  85 |             throw error;
+  86 |         }
+  87 |     }
+  88 |     
+  89 | 
+  90 | }
+```
